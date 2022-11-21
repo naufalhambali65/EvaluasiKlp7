@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@drawable/background">
+
+   <ImageView
+       android:layout_marginTop="-25dp"
+       android:layout_width="300dp"
+       android:layout_height="200dp"
+       android:layout_gravity="center"
+       android:src="@color/black"
+       android:alpha="0.5"/>
+
+   <TextView
+       android:id="@+id/klp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="KELOMPOK 7"
+       android:layout_marginTop="-100dp"
+       android:textSize="35dp"
+       android:textColor="@color/white"
+       android:textStyle="bold"
+       android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KATALOG FILM"
+        android:layout_marginTop="-70dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55121031 - Indri Naftaly Mangkawa"
+        android:layout_marginTop="-40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55121033 - Aulia Intan Prasasti"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55121035 - Naufal Syafiq Hambali"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="21670019(PMM) - Fitradana Putra I" />
+
+
+</FrameLayout>
